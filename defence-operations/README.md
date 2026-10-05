@@ -2,45 +2,86 @@
 
 ## Project Overview
 
-A responsive web dashboard designed to demonstrate a simulated defence operations monitoring interface.
+The Defence Operations Dashboard is a modern web-based UI template designed for monitoring simulated defence operations, mission readiness, system status and operational alerts.
+
+This interface focuses on presenting complex operational information in a clear and structured dashboard layout.
 
 ## Purpose
 
-This UI template presents sample operational information, system status, notifications, and recent activity in a centralized dashboard.
+The template demonstrates how a defence-oriented operations center could organize:
 
-## Research and Design
+- Active operations
+- Mission readiness
+- System uptime
+- Operational alerts
+- Mission progress
+- Weekly activity
+- Recent system activity
 
-The design is inspired by common enterprise monitoring dashboards and data visualization interfaces.
+All operational information shown in this project is fictional and created only for educational and demonstration purposes.
 
-The implementation uses:
+## UI Research
 
-* A sidebar navigation layout
-* Summary cards
-* Operation status indicators
-* An alerts and notifications panel
-* A recent activity log
-* A weekly activity bar chart
+Modern enterprise dashboards commonly use:
 
-## What Makes This Implementation Different
+- Sidebar navigation
+- Summary metric cards
+- Status indicators
+- Progress bars
+- Alert panels
+- Activity timelines
+- Data visualization
+- Responsive layouts
 
-This project combines a light, professional interface with a simple dashboard layout and interactive alert-clearing functionality.
+These patterns are useful because users working with large amounts of operational information need to identify important information quickly.
 
-All operational information is fictional and used for demonstration purposes only.
+## Design Approach
+
+The interface uses a clean enterprise dashboard style with:
+
+- Light background
+- White content cards
+- Navy typography
+- Blue navigation accents
+- Green operational indicators
+- Orange warning indicators
+- Red alert indicators
+- Consistent spacing
+- Rounded cards
+- Responsive layouts
+
+The design was implemented as an original UI rather than copying an existing website.
+
+## Implementation
+
+The dashboard includes:
+
+1. Fixed sidebar navigation
+2. Operational overview cards
+3. Mission progress tracking
+4. Weekly activity visualization
+5. Alert management
+6. Recent activity timeline
+7. Dynamic date and time
+8. Interactive navigation
+9. Clear Alerts functionality
+10. Responsive design
 
 ## Technologies
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
 
-## How to Run
+No external frameworks or unnecessary dependencies are required.
 
-1. Open `index.html` in Visual Studio Code.
-2. Use the Live Server extension to launch the page in a browser.
+## Folder Structure
 
-## Project Structure
-
-* `index.html` — Page structure
-* `style.css` — Styling and responsive layout
-* `script.js` — Dashboard interactions
-* `README.md` — Project documentation
+```text
+defence-operations/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
